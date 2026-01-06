@@ -69,4 +69,61 @@ nav .menu li a{
     margin: 47px 38px  0 230px ;
     display:flex;
     justify-content: space-between;
+    background: url('img/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: 500px 0;
+    background-size: contain;
+    /* align-items: center; */
+}
+#banner .banner-content{
+    width: 585px;
+    margin-top: 85px;
+}
+#banner .banner-content h2{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 45px;
+}
+#banner .banner-content h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 60px;
+}
+#banner .banner-content p{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+#banner .banner-img img{
+    margin-right: 40px;
+    margin-bottom: -5px;
+}
+.buttons{
+    display: flex;
+    gap: 0 30px;
+}
+#about .about-content{
+    padding: 130px 156px;
+    background:#FFF8F3;
+    margin: 130px 230px;
+}
+#about .about-content h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+#about .about-content p{
+   font-size: 18px;
+    font-weight: 400;    
+    text-align: center;
+    line-height: 30px;
+    color: #757575;
+}
+#about .about-content .table {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#about .about-content .table h3{
+    text-align: center;
 }
