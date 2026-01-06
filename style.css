@@ -55,3 +55,18 @@ nav .menu li a{
     font-weight: bold;
     color: white;
 }
+.btn2{
+    background: #FFF8F3;
+    border: 2px solid #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #FD6E0A;
+}
+#banner{
+    /* background: #000; */
+    margin: 47px 38px  0 230px ;
+    display:flex;
+    justify-content: space-between;
+}
