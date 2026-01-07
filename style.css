@@ -71,7 +71,7 @@ nav .menu li a{
     justify-content: space-between;
     background: url('img/header_bg.png') ;
     background-repeat: no-repeat;
-    background-position: 500px 0;
+    background-position: 500px 0px;
     background-size: contain;
     /* align-items: center; */
 }
@@ -113,7 +113,7 @@ nav .menu li a{
     text-align: center;
 }
 #about .about-content p{
-   font-size: 18px;
+   font-size: 16px;
     font-weight: 400;    
     text-align: center;
     line-height: 30px;
@@ -127,3 +127,45 @@ nav .menu li a{
 #about .about-content .table h3{
     text-align: center;
 }
+.what-do{
+    padding: 130px 156px 0 130px;
+    /* background:#FFF8F3; */
+    /* margin: 130px 230px 0 130px; */
+    /* margin-bottom: 0; */
+}
+.what-do h1{
+    text-align: center;
+    margin-block: 20px;
+}
+.what-do p{
+    /* margin-block: 20px; */
+    font-size: 14px;
+    font-weight: 400;    
+    text-align: center;
+    line-height: 30px;
+    color: #757575;
+    width: 70%;
+    margin: 20px auto;
+}
+.icon-box{
+    box-shadow: 0 0 8px rgb(228, 227, 227),0 0 18px rgb(228, 227, 227);
+    margin: 15px;
+    width: 280px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+}
+.box h2{
+    margin-block: 20px;
+    font-size: 20px;
+}
+ .icon-box .box p{
+    font-size: 16px;
+    font-weight: 400;    
+    line-height: 30px;
+    color: #757575;
+ }
+ #icon-part{
+    display: flex;
+    justify-content: center;
+ }
