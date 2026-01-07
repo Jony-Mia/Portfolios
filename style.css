@@ -166,6 +166,103 @@ nav .menu li a{
     color: #757575;
  }
  #icon-part{
+     display: flex;
+     justify-content: center;
+    }
+ .resume-box{
+    /* box-shadow: 0 0 8px rgb(228, 227, 227),0 0 18px rgb(228, 227, 227); */
+    margin: 15px;
+    width: 450px;
+    padding: 15px 0 0 0;
+    /* border-radius: 5px; */
+    background: #fff;
+    border-bottom: solid rgb(225, 222, 222) 2px;
+
+}
+.resume-info h2{
+    margin-block: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-info p{
+    margin-top: 10px;
+   font-size: 14px;
+   font-weight: 400;    
+   line-height: 30px;
+   color: #757575;
+}
+.resume-info h3{
+    color: #757575;
+    /* margin-block: 20px; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume > section> h2{
+    text-align: center;
+    font-size: 30px;
+}
+.resume{
+    margin: auto;
+    width: 100%;
+}
+.resume-body{
+    display: flex;
+    width: 100%;
+    /* margin: auto; */
+    justify-content: center;
+}
+.resume-button{
+    text-align: center !important;
     display: flex;
     justify-content: center;
- }
+}
+footer{
+    background: #FFF8F3;
+    padding: 130px;
+}
+.footer{
+width: 50%;
+padding: 0 20px;
+padding-top: 15px;
+
+}
+footer .footer h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px 0;
+}
+.footer ul {
+    display: flex;
+    gap: 15px;
+}
+.footer ul li{
+    color: #FD6E0A;
+    list-style: none;
+    margin: 5px 0;
+
+}
+.foot-part{
+    width: 50%;
+    padding-top: 15px;
+}
+footer section{
+    display: flex;
+    gap: 20px 30px;
+    justify-content: center;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-input input, .form-input textarea{
+    padding: 15px;
+    width: 60%;
+    border: none;
+    outline: none;
+}
+.form-input button{
+    display: initial;
+    font-size: 14px;
+    font-weight: bold;
+}
